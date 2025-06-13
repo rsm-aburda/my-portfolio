@@ -72,19 +72,19 @@ export const DATA = {
 
   work: [
     {
-      company: "Atomic Finance",
-      href: "https://atomic.finance",
+      company: "Gemological Institute of America (GIA)",
+      href: "https://www.gia.edu/",
       badges: [],
       location: "Remote",
-      title: "Bitcoin Protocol Engineer",
+      title: "Data Analyst, Product",
       logoUrl: "/atomic.png",
-      start: "May 2021",
-      end: "Oct 2022",
+      start: "May 2024",
+      end: "Present",
       description:
         "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
     },
     {
-      company: "Shopify",
+      company: "Dune Labs",
       badges: [],
       href: "https://shopify.com",
       location: "Remote",
@@ -96,14 +96,14 @@ export const DATA = {
         "Implemented a custom Kubernetes controller in Go to automate the deployment of MySQL and ProxySQL custom resources in order to enable 2,000+ internal developers to instantly deploy their app databases to production. Wrote several scripts in Go to automate MySQL database failovers while maintaining master-slave replication topologies and keeping Zookeeper nodes consistent with changes.",
     },
     {
-      company: "Nvidia",
+      company: "California State Parks",
       href: "https://nvidia.com/",
       badges: [],
-      location: "Santa Clara, CA",
-      title: "Software Engineer",
+      location: "San Diego, CA",
+      title: "Ocean Lifeguard",
       logoUrl: "/nvidia.png",
-      start: "January 2020",
-      end: "April 2020",
+      start: "June 2018",
+      end: "Present",
       description:
         "Architected and wrote the entire MVP of the GeForce Now Cloud Gaming internal admin and A/B testing dashboard using React, Redux, TypeScript, and Python.",
     },
