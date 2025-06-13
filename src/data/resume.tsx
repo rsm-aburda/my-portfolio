@@ -5,7 +5,7 @@ export const DATA = {
   name: "Andrew Burda",
   initials: "AVB",
   url: "https://dillion.io",
-  location: "San Francisco, CA",
+  location: "San Diego, CA",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
     "Software Engineer turned Entrepreneur. I love building things and helping people. Very active on Twitter.",
@@ -35,14 +35,14 @@ export const DATA = {
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://dub.sh/dillion-github",
+        url: "https://github.com/rsm-aburda",
         icon: Icons.github,
 
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://dub.sh/dillion-linkedin",
+        url: "https://www.linkedin.com/in/andrew-burda/",
         icon: Icons.linkedin,
 
         navbar: true,
