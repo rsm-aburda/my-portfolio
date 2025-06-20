@@ -7,8 +7,22 @@ export const DATA = {
   url: "https://dillion.io",
   location: "San Diego, CA",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
-  description:
-    "Data Analyst @ GIA💎 | UCSD MSBA Candidate | Passionate About Product, Analytics and AI I love building things and helping people. Very active on Twitter.",
+  
+  description: (
+  <>
+    Data Analyst @ GIA💎 | UCSD MSBA Candidate | Exploring Product, Analytics and AI. Currently building{" "}
+    <a
+      href="https://upcycledsupplyco.com/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="underline"
+    >
+      Upcycled Supply Co
+    </a>{" "}
+    and shipping new projects soon.
+  </>
+),
+
   summary:
     "At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
   avatarUrl: "/DSC03702-min.jpg",
@@ -77,19 +91,31 @@ export const DATA = {
       badges: [],
       location: "Remote",
       title: "Data Analyst, Product",
-      logoUrl: "/atomic.png",
+      logoUrl: "/gia-logo.svg",
       start: "May 2024",
       end: "Present",
       description:
         "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
     },
     {
+      company: "Upcycled Supply Co",
+      href: "https://upcycledsupplyco.com/",
+      badges: [],
+      location: "San Diego, CA",
+      title: "Founder",
+      logoUrl: "/Instagram Profile (4).png",
+      start: "Dec 2024",
+      end: "Present",
+      description:
+        "Co-developed a prototype iOS app with another intern in Swift for the new Splunk Phantom security orchestration product (later publicly demoed and launched at .conf annual conference in Las Vegas). Implemented a realtime service for the iOS app in Django (Python) and C++; serialized data using protobufs transmitted over gRPC resulting in an approximate 500% increase in data throughput.",
+    },
+    {
       company: "Dune Labs",
       badges: [],
-      href: "https://shopify.com",
+      href: "https://dunelabs.ai/",
       location: "Remote",
       title: "Data Analyst",
-      logoUrl: "/shopify.svg",
+      logoUrl: "/dune labs logo.png",
       start: "January 2021",
       end: "April 2021",
       description:
@@ -97,67 +123,33 @@ export const DATA = {
     },
     {
       company: "California State Parks",
-      href: "https://nvidia.com/",
+      href: "https://www.parks.ca.gov/",
       badges: [],
       location: "San Diego, CA",
       title: "Ocean Lifeguard",
-      logoUrl: "/nvidia.png",
+      logoUrl: "/cal state blue logo.png",
       start: "June 2018",
       end: "Present",
       description:
         "Architected and wrote the entire MVP of the GeForce Now Cloud Gaming internal admin and A/B testing dashboard using React, Redux, TypeScript, and Python.",
     },
-    {
-      company: "Upcycled Supply Co",
-      href: "https://splunk.com",
-      badges: [],
-      location: "San Diego, CA",
-      title: "Founder",
-      logoUrl: "/splunk.svg",
-      start: "Dec 2024",
-      end: "Present",
-      description:
-        "Co-developed a prototype iOS app with another intern in Swift for the new Splunk Phantom security orchestration product (later publicly demoed and launched at .conf annual conference in Las Vegas). Implemented a realtime service for the iOS app in Django (Python) and C++; serialized data using protobufs transmitted over gRPC resulting in an approximate 500% increase in data throughput.",
-    },
-    {
-      company: "Lime",
-      href: "https://li.me/",
-      badges: [],
-      location: "San Francisco, CA",
-      title: "Software Engineer",
-      logoUrl: "/lime.svg",
-      start: "January 2018",
-      end: "April 2018",
-      description:
-        "Proposed and implemented an internal ruby API for sending/receiving commands to scooters over LTE networks. Developed a fully automated bike firmware update system to handle asynchronous firmware updates of over 100,000+ scooters worldwide, and provide progress reports in real-time using React, Ruby on Rails, PostgreSQL and AWS EC2 saving hundreds of developer hours.",
-    },
-    {
-      company: "Mitre Media",
-      href: "https://mitremedia.com/",
-      badges: [],
-      location: "Toronto, ON",
-      title: "Software Engineer",
-      logoUrl: "/mitremedia.png",
-      start: "May 2017",
-      end: "August 2017",
-      description:
-        "Designed and implemented a robust password encryption and browser cookie storage system in Ruby on Rails. Leveraged the Yahoo finance API to develop the dividend.com equity screener",
-    },
+    
+    
   ],
   education: [
     {
       school: "UC San Diego, Rady School of Management",
-      href: "https://buildspace.so",
+      href: "https://rady.ucsd.edu/",
       degree: "Masters of Science, Business Analytics (MSBA)",
-      logoUrl: "/buildspace.jpg",
+      logoUrl: "/rady-school-of-management-64694913.png",
       start: "2024",
       end: "2025",
     },
     {
       school: "UC San Diego",
-      href: "https://uwaterloo.ca",
+      href: "https://ucsd.edu/",
       degree: "Bachelor's of Science, Human/Computer Interaction (HCI)",
-      logoUrl: "/waterloo.png",
+      logoUrl: "/logo_UCSD.png",
       start: "2018",
       end: "2023",
     },
