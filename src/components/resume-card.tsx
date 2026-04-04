@@ -7,6 +7,7 @@ import { cn } from "@/lib/utils";
 import { motion } from "framer-motion";
 import { ChevronRightIcon } from "lucide-react";
 import Link from "next/link";
+import Markdown from "react-markdown";
 import React from "react";
 
 interface ResumeCardProps {
@@ -46,7 +47,7 @@ export const ResumeCard = ({
     >
       <Card className="flex">
         <div className="flex-none">
-          <Avatar className="border size-12 m-auto bg-muted-background dark:bg-foreground">
+          <Avatar className="border size-14 m-auto bg-muted-background dark:bg-foreground">
             <AvatarImage
               src={logoUrl}
               alt={altText}
@@ -100,7 +101,9 @@ export const ResumeCard = ({
               }}
               className="mt-2 text-xs sm:text-sm"
             >
-              {description}
+              <Markdown className="prose max-w-full font-sans text-xs text-foreground/75 dark:prose-invert prose-ul:my-1 prose-li:my-0">
+                {description}
+              </Markdown>
             </motion.div>
           )}
         </div>

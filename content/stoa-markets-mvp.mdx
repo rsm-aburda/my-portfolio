@@ -1,0 +1,114 @@
+---
+title: "STOA Markets: What I Learned Building a Two-Sided Marketplace MVP"
+publishedAt: "2025-12-15"
+summary: "I built a marketplace MVP in under 4 weeks to solve a problem I experienced firsthand as a vendor. Here's what happened, what I learned, and what I'd do differently."
+image: "/stoa-card-title.png"
+---
+
+I sell at local pop-up markets through my brand, Upcycled Supply Co. And one of the most frustrating parts of being a vendor is finding markets to apply to.
+
+They're scattered across Instagram. Deadlines are buried in captions. There's no central place to search, filter, or track applications. So I built one.
+
+## What is STOA Markets?
+
+STOA Markets is a two-sided marketplace for discovering and managing local pop-up markets.
+
+- **Vendors** can discover and apply to local markets in one place
+- **Organizers** can list markets and manage vendor applications through structured workflows
+
+The initial focus was on the vendor side — a discovery MVP to validate whether centralized listings would drive real demand.
+
+## The Problem I Was Solving
+
+**Vendor pain:**
+- Markets scattered across Instagram with no searchable database
+- Application deadlines easy to miss
+- No way to compare fees, dates, or requirements across events
+
+**Organizer pain:**
+- Manual application review with no structured tooling
+- Vendor mix balancing done in spreadsheets
+- Waitlists managed through DMs or Google Forms
+- No operational dashboard
+
+The opportunity: centralized infrastructure that serves both sides.
+
+## Initial Hypothesis
+
+*If we centralize listings, vendors will return to discover and apply to markets.*
+
+I started with vendors because the pain was acute and visible, the MVP was faster to build, and structured listings would create leverage for the organizer side later.
+
+I deliberately did not build application workflow management, vendor mix tooling, waitlist automation, or organizer dashboards in v1. Scope discipline was the only way to ship fast enough to learn anything.
+
+## How I Built It
+
+**Stack:** Airtable (database) + Softr (front-end)
+
+**What I built:**
+- Structured market directory with 100+ listings
+- Searchable, filterable discovery experience
+- Organizer submission form to add new markets
+- Vendor-facing browse and apply flow
+
+**Where AI made the difference:**
+
+Building this fast required using AI as a force multiplier throughout:
+
+- Used Airtable's AI agent to generate structured database schemas from messy, unformatted market data
+- Used LLMs to extract event details from unstructured Instagram posts and convert them into normalized, machine-readable fields
+- Reduced manual database design and listing entry time by roughly 70%
+
+This wasn't just a productivity trick. Converting freeform social content into structured data was the actual product — it's what enabled filtering, search, and discovery. And it surfaced where AI could add value in future versions: auto-tagging vendors by category, clustering applications to reduce organizer review time, recommending vendor mix based on past event composition.
+
+## Early Results
+
+Over roughly 4 months, with zero paid acquisition:
+
+- 224 active users
+- 1.8K tracked events
+- 31 seconds average engagement
+
+Vendors reported discovering and applying to markets through STOA. The hypothesis had signal.
+
+But retention was low. Discovery generated curiosity — it didn't create habit.
+
+## The Core Constraint
+
+Here's what I got wrong.
+
+I assumed that centralizing listings would be enough to pull organizers onto the platform over time. It wasn't.
+
+- Organizer onboarding required manual submission from me
+- There was no self-serve dashboard for organizers to manage their listings
+- Discovery alone was insufficient to overcome organizer switching costs
+
+**Key insight:** Without operational value for organizers, supply growth is slow and defensible scale is unlikely. Vendors come for the listings. If organizers don't have a reason to keep listings fresh and accurate, the whole thing stalls.
+
+## What I'd Do Differently
+
+If I were rebuilding today, I'd flip the wedge entirely.
+
+Instead of starting with vendor discovery, I'd build an **organizer operating system** first:
+
+- Self-serve organizer accounts
+- Centralized vendor application dashboard
+- Waitlist automation
+- Vendor category auto-tagging
+- Vendor mix visualization
+
+**Why:** Organizers control supply. If the product makes their job meaningfully easier, they bring their markets — and vendor discovery becomes a pull effect rather than something you have to manufacture.
+
+**Monetization:** Paid organizer subscription with a free vendor discovery layer.
+
+**Primary activation metric:** 80% of newly listed markets self-managed by organizers within 30 days of onboarding.
+
+## What I Actually Learned
+
+I underestimated organizer switching costs and overestimated the pull of discovery alone.
+
+The MVP worked as a validation tool. It confirmed that vendors have real pain, that centralized listings generate organic interest, and that the problem is worth solving. But it also showed clearly that vendor-side demand alone isn't enough to bootstrap a two-sided marketplace.
+
+The decision to pause rather than keep building was deliberate. Scaling before solving the organizer wedge would have meant spending more time on a structure that couldn't sustain itself.
+
+v2 will start on the organizer side. When organizers have a reason to be here, vendors will follow.
