@@ -121,7 +121,7 @@ export const DATA = {
       start: "Apr 2025",
       end: "Present",
       description:
-        "- Building STOA for Organizers, a SaaS platform that replaces the Gmail/spreadsheet workflow for makers' market, craft fair, and farmers' market organizers\n- Organizers create a market, share a branded application link, and manage vendor applications through a dashboard with filtering, bulk actions, and one-click approval emails with deep-linked Venmo payment links\n- Analytics show vendor mix by category, booth size distribution, and estimated revenue in real time\n- Rebuilt from scratch in under 60 days: Next.js 15, TypeScript, MongoDB, Resend, NextAuth, Vercel. Live at stoamarkets.com",
+        "- Building STOA for Organizers, a SaaS platform that replaces the Gmail/spreadsheet workflow for makers' market, craft fair, and farmers' market organizers\n- Organizers create a market, share a branded application link, and manage vendor applications through a dashboard with filtering, bulk actions, and one-click approval emails with deep-linked Venmo payment links\n- Analytics show vendor mix by category, booth size distribution, and estimated revenue in real time\n- Rebuilt from scratch: Next.js 15, TypeScript, MongoDB, Resend, NextAuth, Vercel. Live at stoamarkets.com",
     },
     {
       company: "Dune Labs Inc.",
