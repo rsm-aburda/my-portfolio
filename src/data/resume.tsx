@@ -112,16 +112,16 @@ export const DATA = {
         "- Secured retail placements at REI and Mesa Rim climbing gyms\n- Launched our crossbody bag line within the brand's first year\n- Fulfilled large-scale custom keychain orders for corporate and event clients\n- Built and managed end-to-end DTC operations across Shopify and Square-powered in-person channels",
     },
     {
-      company: "STOA Markets",
-      href: "#",
+      company: "STOA for Organizers",
+      href: "https://stoamarkets.com",
       badges: [],
       location: "Remote",
       title: "Product Builder",
       logoUrl: "/stoa-favicon.png",
       start: "Sep 2025",
-      end: "Dec 2025",
+      end: "Present",
       description:
-        "- Built and launched an MVP two-sided marketplace in under 4 weeks using Airtable and Softr, structuring 100+ markets with AI-assisted field generation and automation\n- Used AI tools to reduce manual data entry time by ~70-80% and synthesize vendor interview feedback into prioritized feature decisions\n- Reached 224 active users and 1.8K tracked events through organic traffic only\n- Paused development after identifying that organizer tooling (not vendor discovery) was the critical unlock for marketplace liquidity",
+        "- Building STOA for Organizers, a SaaS platform that replaces the Gmail/spreadsheet workflow for craft fair and farmers market organizers with a structured application, approval, and vendor communication system\n- Built and launched an MVP two-sided marketplace in under 4 weeks (v1), reaching 224 active users through organic traffic before pivoting to organizer tooling as the core unlock\n- Rebuilt from scratch using Next.js 15, TypeScript, MongoDB, Resend, and NextAuth — live at stoamarkets.com\n- Used AI tools to reduce manual data entry by ~70-80% and synthesize vendor interview feedback into product decisions",
     },
     {
       company: "Dune Labs Inc.",
@@ -202,8 +202,39 @@ export const DATA = {
       video: "",
     },
     {
+      title: "STOA for Organizers",
+      href: "https://stoamarkets.com",
+      dates: "Jan 2026 - Present",
+      active: true,
+      description:
+        "STOA is a SaaS platform built for independent market organizers. Organizers create a market, share an application link, and manage vendor applications through a dashboard — approving, declining, and communicating with vendors via automated emails. Built with Next.js, MongoDB, and Resend. Live at stoamarkets.com.",
+      technologies: [
+        "Next.js",
+        "TypeScript",
+        "MongoDB",
+        "Resend",
+        "NextAuth",
+        "Vercel",
+        "Product Strategy",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://stoamarkets.com",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Instagram",
+          href: "https://www.instagram.com/stoamarkets/",
+          icon: <></>,
+        },
+      ],
+      image: "/stoa-card-title.png",
+      video: "",
+    },
+    {
       title: "STOA Markets MVP",
-      href: "#",
+      href: "https://stoamarkets.com",
       dates: "Sep 2025 - Dec 2025",
       active: false,
       description:
@@ -217,7 +248,13 @@ export const DATA = {
         "User Research",
         "Marketplace Design",
       ],
-      links: [],
+      links: [
+        {
+          type: "Website",
+          href: "https://stoamarkets.com",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
       image: "/stoa-card-title.png",
       video: "",
     },
