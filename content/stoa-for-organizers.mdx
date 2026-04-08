@@ -2,14 +2,14 @@
 title: "Why I Rebuilt STOA from Scratch"
 publishedAt: "2026-04-08"
 summary: "The MVP worked. It also showed me exactly why I had to rebuild it. Here's what I learned from v1 and what I'm building now."
-image: "/stoa-card-title.png"
+image: "/image.png"
 ---
 
 In late 2025, I built and launched a two-sided marketplace MVP for local pop-up markets in under 4 weeks. 224 active users, 1.8K tracked events, zero paid acquisition.
 
 Then I paused it.
 
-Not because it failed — but because it worked just enough to show me the real problem I hadn't solved yet.
+Not because it failed, but because it worked just enough to show me the real problem I hadn't solved yet.
 
 ## What the MVP Got Right
 
@@ -17,7 +17,7 @@ The original STOA was vendor-first. The pitch: one place to discover and apply t
 
 I built a structured directory of 100+ markets using Airtable and Softr, used LLMs to convert unformatted social posts into normalized listings, and launched with no marketing budget.
 
-The signal was real. Vendors showed up and used it. Average session was 31 seconds — not long, but engaged. The discovery problem was genuine.
+The signal was real. Vendors showed up and used it. Average session was 31 seconds, not long, but engaged. The discovery problem was genuine.
 
 But retention was low. And when I dug into why, the answer was obvious in hindsight.
 
@@ -25,7 +25,7 @@ But retention was low. And when I dug into why, the answer was obvious in hindsi
 
 Vendor discovery only works if the listings are accurate and current. And listings stay accurate only if organizers have a reason to keep them that way.
 
-I assumed that once vendors arrived, organizers would follow. That's not how two-sided marketplaces work. You can't pull supply with demand alone — not when the supply side (organizers) has zero operational reason to be on the platform.
+I assumed that once vendors arrived, organizers would follow. That's not how two-sided marketplaces work. You can't pull supply with demand alone, not when the supply side (organizers) has zero operational reason to be on the platform.
 
 Most market organizers run everything through Gmail, Google Forms, and spreadsheets. They manually copy vendor info from form submissions, send individual approval emails one at a time, and chase Venmo payments by hand. It's tedious, error-prone, and time-consuming.
 
@@ -35,21 +35,13 @@ That's the actual problem worth solving. And it has nothing to do with vendor di
 
 ![STOA Organizers landing page](/image.png)
 
-STOA for Organizers is a market management platform that replaces the Gmail/spreadsheet workflow entirely.
+STOA is a vendor management platform for craft fair and farmers market organizers. Organizers create a market in minutes, share a branded application link, and review incoming vendor applications through a dashboard with filtering, bulk actions, and one-click approval emails with auto-generated Venmo payment links. Analytics show vendor mix by category, booth size distribution, and estimated revenue in real time.
 
-Organizers create a market, share a branded application link, and manage everything through a dashboard:
-
-- Review vendor applications with filtering and bulk actions
-- Approve or decline with one click — automated email sent instantly
-- Approval emails include auto-generated Venmo payment links
-- See vendor mix by category, booth size, and estimated revenue in real time
-- Message vendors directly from the dashboard
-
-Built with Next.js 15, TypeScript, MongoDB, Resend, and NextAuth. Live at [stoamarkets.com](https://stoamarkets.com).
+Built solo from 0 to production in under 60 days. Stack: Next.js 15, TypeScript, MongoDB, Resend, NextAuth, Vercel. Live and in active use with real organizers in Southern California.
 
 ## Why This Order Makes Sense Now
 
-When organizers have a tool that makes their job meaningfully easier, they bring their markets. And when markets are on the platform, vendor discovery becomes a pull effect — not something you have to manufacture.
+When organizers have a tool that makes their job meaningfully easier, they bring their markets. And when markets are on the platform, vendor discovery becomes a pull effect, not something you have to manufacture.
 
 v1 taught me that. I had to build the wrong thing first to understand which side of the marketplace was actually load-bearing.
 
@@ -57,4 +49,4 @@ Now I know. Building from there.
 
 ---
 
-*STOA is live and in active use with organizers in Southern California. If you run a market and want to try it — [stoamarkets.com](https://stoamarkets.com).*
+*STOA is live at [stoamarkets.com](https://stoamarkets.com). If you run a market and want to try it, get started for free.*

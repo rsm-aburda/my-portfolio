@@ -118,10 +118,10 @@ export const DATA = {
       location: "Remote",
       title: "Product Builder",
       logoUrl: "/stoa-favicon.png",
-      start: "Sep 2025",
+      start: "Apr 2025",
       end: "Present",
       description:
-        "- Building STOA for Organizers, a SaaS platform that replaces the Gmail/spreadsheet workflow for craft fair and farmers market organizers with a structured application, approval, and vendor communication system\n- Built and launched an MVP two-sided marketplace in under 4 weeks (v1), reaching 224 active users through organic traffic before pivoting to organizer tooling as the core unlock\n- Rebuilt from scratch using Next.js 15, TypeScript, MongoDB, Resend, and NextAuth — live at stoamarkets.com\n- Used AI tools to reduce manual data entry by ~70-80% and synthesize vendor interview feedback into product decisions",
+        "- Building STOA for Organizers, a SaaS platform that replaces the Gmail/spreadsheet workflow for craft fair and farmers market organizers\n- Organizers create a market, share a branded application link, and manage vendor applications through a dashboard with filtering, bulk actions, and one-click approval emails with auto-generated Venmo payment links\n- Analytics show vendor mix by category, booth size distribution, and estimated revenue in real time\n- Rebuilt from scratch in under 60 days: Next.js 15, TypeScript, MongoDB, Resend, NextAuth, Vercel — live at stoamarkets.com",
     },
     {
       company: "Dune Labs Inc.",
@@ -229,7 +229,7 @@ export const DATA = {
           icon: <></>,
         },
       ],
-      image: "/stoa-card-title.png",
+      image: "/image.png",
       video: "",
     },
     {
@@ -248,13 +248,7 @@ export const DATA = {
         "User Research",
         "Marketplace Design",
       ],
-      links: [
-        {
-          type: "Website",
-          href: "https://stoamarkets.com",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
+      links: [],
       image: "/stoa-card-title.png",
       video: "",
     },
