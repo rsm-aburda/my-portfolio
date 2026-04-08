@@ -207,7 +207,7 @@ export const DATA = {
       dates: "Apr 2026 - Present",
       active: true,
       description:
-        "STOA is a SaaS platform built for independent market organizers. Organizers create a market, share an application link, and manage vendor applications through a dashboard — approving, declining, and communicating with vendors via automated emails. Built with Next.js, MongoDB, and Resend. Live at [stoamarkets.com](https://www.stoamarkets.com/).",
+        "STOA is a SaaS platform built for independent market organizers. Organizers create a market, share an application link, and manage vendor applications through a dashboard: approving, declining, and communicating with vendors via automated emails. Built with Next.js, MongoDB, and Resend. Live at [stoamarkets.com](https://www.stoamarkets.com/).",
       technologies: [
         "Next.js",
         "TypeScript",
@@ -229,7 +229,7 @@ export const DATA = {
           icon: <></>,
         },
       ],
-      image: "/stoa-organizers.png",
+      image: "/stoa2.png",
       video: "",
     },
     {
