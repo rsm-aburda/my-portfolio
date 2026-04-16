@@ -10,7 +10,16 @@ export const DATA = {
 
   description: (
     <>
-      Data Analyst @ GIA💎 | MSBA, UC San Diego. Currently building{" "}
+      Building{" "}
+      <a
+        href="https://www.stoamarkets.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="underline"
+      >
+        STOA
+      </a>{" "}
+      and{" "}
       <a
         href="https://upcycledsupplyco.com/"
         target="_blank"
@@ -18,13 +27,13 @@ export const DATA = {
         className="underline"
       >
         Upcycled Supply Co
-      </a>{" "}
-      and shipping new projects soon.
+      </a>
+      . | Data Analyst @ GIA 💎 | MSBA, UC San Diego.
     </>
   ),
 
   summary:
-    "I'm a data analyst and product builder based in San Diego. At [GIA](https://www.gia.edu/), I use behavioral data and analytics to improve digital products across search and mobile. Outside of work, I build and launch things from the ground up, including [Upcycled Supply Co.](https://upcycledsupplyco.com/), a sustainable outdoor gear brand, and [STOA](/#projects), a tool inspired by a problem I experienced firsthand while selling at local markets. I recently completed my M.S. in Business Analytics at the Rady School of Management, where I focused on machine learning, experimentation, and consumer behavior.",
+    "I focus on identifying problems, building solutions, and improving them through real feedback. At [GIA](https://www.gia.edu/), I work on improving digital products across web and mobile, from increasing adoption to identifying where workflows break down and need to be rebuilt. Outside of work, I build and test products from the ground up, including [Upcycled Supply Co.](https://upcycledsupplyco.com/), a sustainable outdoor gear brand, and [STOA](https://www.stoamarkets.com/), a SaaS tool I built to solve a problem I experienced firsthand while selling at local markets. I recently completed my M.S. in Business Analytics at the Rady School of Management, focusing on machine learning, experimentation, and consumer behavior.",
   avatarUrl: "/profile-image-5.png",
   skills: [
     "SQL",
