@@ -18,10 +18,10 @@ export const metadata: Metadata = {
     default: DATA.name,
     template: `%s | ${DATA.name}`,
   },
-  description: "Data Analyst @ GIA | MSBA, UC San Diego. Currently building Upcycled Supply Co and shipping new projects soon.",
+  description: "Building STOA and Upcycled Supply Co. | Data Analyst @ GIA | MSBA, UC San Diego.",
   openGraph: {
     title: `${DATA.name}`,
-    description: "Data Analyst @ GIA | MSBA, UC San Diego. Currently building Upcycled Supply Co and shipping new projects soon.",
+    description: "Building STOA and Upcycled Supply Co. | Data Analyst @ GIA | MSBA, UC San Diego.",
     url: DATA.url,
     siteName: `${DATA.name}`,
     locale: "en_US",
