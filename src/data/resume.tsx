@@ -28,12 +28,14 @@ export const DATA = {
       >
         Upcycled Supply Co
       </a>
-      . | Data Analyst @ GIA 💎 | MSBA, UC San Diego.
+      .{" "}
+      <br />
+      Data Analyst @ GIA 💎 | MSBA, UC San Diego.
     </>
   ),
 
   summary:
-    "I focus on identifying problems, building solutions, and improving them through real feedback. At [GIA](https://www.gia.edu/), I work on improving digital products across web and mobile, from increasing adoption to identifying where workflows break down and need to be rebuilt. Outside of work, I build and test products from the ground up, including [Upcycled Supply Co.](https://upcycledsupplyco.com/), a sustainable outdoor gear brand, and [STOA](https://www.stoamarkets.com/), a SaaS tool I built to solve a problem I experienced firsthand while selling at local markets. I recently completed my M.S. in Business Analytics at the Rady School of Management, focusing on machine learning, experimentation, and consumer behavior.",
+    "I focus on identifying problems, building solutions, and improving them through real feedback.\n\nAt [GIA](https://www.gia.edu/), I work on improving digital products across web and mobile, from increasing adoption to identifying where workflows break down and need to be rebuilt.\n\nOutside of work, I build and test products from the ground up, including [Upcycled Supply Co.](https://upcycledsupplyco.com/), a sustainable outdoor gear brand, and [STOA](https://www.stoamarkets.com/), a SaaS tool I built to solve a problem I experienced firsthand while selling at local markets.\n\nI recently completed my M.S. in Business Analytics at the Rady School of Management, focusing on machine learning, experimentation, and consumer behavior.",
   avatarUrl: "/profile-image-5.png",
   skills: [
     "SQL",
