@@ -12,15 +12,6 @@ export const DATA = {
     <>
       Building{" "}
       <a
-        href="https://www.stoamarkets.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="underline"
-      >
-        STOA
-      </a>{" "}
-      and{" "}
-      <a
         href="https://upcycledsupplyco.com/"
         target="_blank"
         rel="noopener noreferrer"
@@ -30,12 +21,14 @@ export const DATA = {
       </a>
       .{" "}
       <br />
-      Data Analyst @ GIA 💎 | MSBA, UC San Diego.
+      Data Analytics & Product Management @ GIA 💎
+      <br />
+      MSBA, UC San Diego
     </>
   ),
 
   summary:
-    "I focus on identifying problems, building solutions, and improving them through real feedback.\n\nAt [GIA](https://www.gia.edu/), I work on improving digital products across web and mobile, from increasing adoption to identifying where workflows break down and need to be rebuilt.\n\nOutside of work, I build and test products from the ground up, including [Upcycled Supply Co.](https://upcycledsupplyco.com/), a sustainable outdoor gear brand, and [STOA](https://www.stoamarkets.com/), a SaaS tool I built to solve a problem I experienced firsthand while selling at local markets.\n\nI recently completed my M.S. in Business Analytics at the Rady School of Management, focusing on machine learning, experimentation, and consumer behavior.",
+    "I have a background in analytics and product management, with a focus on building products that solve real user problems and drive measurable growth.\n\nAt [GIA](https://www.gia.edu/), I work across web and mobile products, partnering with design and engineering to shape product strategy, prioritize roadmaps, and use analytics to improve user adoption and customer experience.\n\nOutside of work, I founded [Upcycled Supply Co](https://upcycledsupplyco.com/), a sustainable outdoor gear brand that has given me firsthand experience in product development, go-to-market strategy, growth marketing, and wholesale sales. I also built [STOA](https://www.stoamarkets.com/), a SaaS tool inspired by challenges I experienced while selling at local markets, taking it from idea to launch.\n\nI recently completed my M.S. in Business Analytics at [UC San Diego's Rady School of Management](https://rady.ucsd.edu/), with a focus on experimentation, machine learning, consumer behavior, and brand management.",
   avatarUrl: "/profile-image-5.png",
   skills: [
     "SQL",
@@ -47,7 +40,10 @@ export const DATA = {
     "Python",
     "LLMs",
     "Prompt Engineering",
+    "AI Enablement",
     "Product Strategy",
+    "Product Roadmapping",
+    "PRD Writing",
     "User Research",
     "No-Code",
     "Airtable",
@@ -55,6 +51,8 @@ export const DATA = {
     "Power BI",
     "Looker Studio",
     "Tableau",
+    "Vendor Management",
+    "Executive Communication",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -103,12 +101,12 @@ export const DATA = {
       href: "https://www.gia.edu/",
       badges: [],
       location: "Carlsbad, CA",
-      title: "Data Analyst, Product",
+      title: "Data Analyst, Product Management",
       logoUrl: "/gia-logo.svg",
       start: "May 2024",
       end: "Present",
       description:
-        "- Led AI adoption workshop for 50+ stakeholders on practical LLM use cases across analytics, marketing, and education\n- Grew mobile app MAU by ~53% in 3 months and more than doubled app ratings through behavioral data analysis and targeted product improvements\n- Reduced inscription match time by ~85% by identifying performance bottlenecks and partnering with engineering on UI and workflow updates\n- Established cross-functional product analytics infrastructure using SQL, Snowflake, and Amplitude, standardizing KPI tracking across product, marketing, and operations",
+        "- Own product strategy and roadmap for the GIA mobile app; launched a web-to-app conversion funnel that grew MAU ~53% in 3 months\n- Built the product analytics stack using SQL, connecting Amplitude, GA4, and Power BI into Snowflake via Boomi to standardize KPI tracking\n- Diagnosed the inscription-matching bottleneck and partnered with engineering to ship UI and backend improvements, cutting match time ~85%\n- Led product strategy and wrote the PRD to extend an existing web client platform onto mobile, working across design, engineering, and operations to deliver a streamlined mobile-first experience\n- Lead adoption of Claude and AI tooling across the product team: automated Amplitude reporting with AI agents, ran an LLM-based support-ticket analysis for large-scale pain-point discovery, and drove enablement through AI training for 50+ stakeholders",
     },
     {
       company: "Upcycled Supply Co",
@@ -120,19 +118,7 @@ export const DATA = {
       start: "Oct 2024",
       end: "Present",
       description:
-        "- Secured retail placements at REI and Mesa Rim climbing gyms\n- Launched our crossbody bag line within the brand's first year\n- Fulfilled large-scale custom keychain orders for corporate and event clients\n- Built and managed end-to-end DTC operations across Shopify and Square-powered in-person channels",
-    },
-    {
-      company: "STOA for Organizers",
-      href: "https://www.stoamarkets.com/",
-      badges: [],
-      location: "Remote",
-      title: "Product Builder",
-      logoUrl: "/stoa-favicon.png",
-      start: "Apr 2025",
-      end: "Present",
-      description:
-        "- Building STOA for Organizers, a SaaS platform that replaces the Gmail/spreadsheet workflow for makers' market, craft fair, and farmers' market organizers\n- Organizers create a market, share a application link, and manage vendor applications through a dashboard with filtering, bulk actions, and one-click approval emails with deep-linked Venmo payment links\n- Analytics show vendor mix by category, booth size distribution, and estimated revenue in real time\n- Rebuilt from scratch: Next.js 15, TypeScript, MongoDB, Resend, NextAuth, Vercel. Live at stoamarkets.com",
+        "- Built and scaled a multi-channel e-commerce brand across DTC, wholesale, and retail; sold 1,500+ units to date\n- Landed retail accounts, including REI, through direct outreach and a wholesale strategy\n- Ran Meta ad campaigns end to end (audience testing, creative iteration, budget allocation), using performance data to refine targeting and improve conversion\n- Grew Instagram following ~150% in 4 months through structured content testing, hook iteration, and creator collaborations\n- Tested product mix, pricing, and channel strategy against sales data to sharpen SKU focus and lift conversion",
     },
     {
       company: "Dune Labs Inc.",
@@ -195,7 +181,6 @@ export const DATA = {
         "E-commerce Ops",
         "Sales Analytics",
         "Paid Acquisition",
-        "AI Creative",
       ],
       links: [
         {
@@ -215,10 +200,10 @@ export const DATA = {
     {
       title: "STOA for Organizers",
       href: "https://www.stoamarkets.com/",
-      dates: "Apr 2026 - Present",
-      active: true,
+      dates: "Apr 2026 - Jun 2026",
+      active: false,
       description:
-        "STOA is a SaaS platform built for independent market organizers. Organizers create a market, share an application link, and manage vendor applications through a dashboard: approving, declining, and communicating with vendors via automated emails. Built with Next.js, MongoDB, and Resend. Live at [stoamarkets.com](https://www.stoamarkets.com/).",
+        "STOA is a SaaS platform built for independent market organizers. Organizers create a market, share an application link, and manage vendor applications through a dashboard: approving, declining, and communicating with vendors via automated emails. Built with Next.js, MongoDB, and Resend. Still live at [stoamarkets.com](https://www.stoamarkets.com/), though active development is currently paused.",
       technologies: [
         "Next.js",
         "TypeScript",

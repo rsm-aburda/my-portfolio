@@ -30,7 +30,7 @@ export default async function BlogPage() {
         .map((post, id) => (
           <BlurFade delay={BLUR_FADE_DELAY * 2 + id * 0.05} key={post.slug}>
             <Link href={`/blog/${post.slug}`} className="block mb-6">
-              <div className="rounded-lg border overflow-hidden hover:shadow-lg transition-all duration-300">
+              <div className="rounded-lg border overflow-hidden hover:shadow-lg hover:-translate-y-1 hover:scale-[1.02] transition-all duration-300 ease-out transform-gpu">
                 {post.metadata.image && (
                   <Image
                     src={post.metadata.image}
