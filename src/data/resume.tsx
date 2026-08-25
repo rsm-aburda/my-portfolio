@@ -225,7 +225,7 @@ export const DATA = {
           icon: <></>,
         },
       ],
-      image: "/stoa2.png",
+      image: "/v2-stoa-fallback.png",
       video: "",
     },
     {
