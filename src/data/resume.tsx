@@ -118,7 +118,7 @@ export const DATA = {
       start: "Oct 2024",
       end: "Present",
       description:
-        "- Built and scaled a multi-channel e-commerce brand across DTC, wholesale, and retail; sold 1,500+ units to date\n- Landed retail accounts, including REI, through direct outreach and a wholesale strategy\n- Ran Meta ad campaigns end to end (audience testing, creative iteration, budget allocation), using performance data to refine targeting and improve conversion\n- Grew Instagram following ~150% in 4 months through structured content testing, hook iteration, and creator collaborations\n- Tested product mix, pricing, and channel strategy against sales data to sharpen SKU focus and lift conversion",
+        "- Built and scaled a multi-channel e-commerce brand across DTC, wholesale, and retail; sold 2,000+ units to date\n- Landed retail accounts, including REI, through direct outreach and a wholesale strategy\n- Ran Meta ad campaigns end to end (audience testing, creative iteration, budget allocation), using performance data to refine targeting and improve conversion\n- Grew Instagram following ~150% in 4 months through structured content testing, hook iteration, and creator collaborations\n- Tested product mix, pricing, and channel strategy against sales data to sharpen SKU focus and lift conversion",
     },
     {
       company: "Dune Labs Inc.",
