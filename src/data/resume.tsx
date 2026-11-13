@@ -105,7 +105,7 @@ export const DATA = {
       start: "May 2024",
       end: "Present",
       description:
-        "- Own product strategy and roadmap for the GIA mobile app; launched a web-to-app conversion funnel that grew MAU ~53% in 3 months\n- Built the product analytics stack using SQL, connecting Amplitude, GA4, and Power BI into Snowflake via Boomi to standardize KPI tracking\n- Diagnosed the inscription-matching bottleneck and partnered with engineering to ship UI and backend improvements, cutting match time ~85%\n- Led product strategy and wrote the PRD to extend an existing web client platform onto mobile, working across design, engineering, and operations to deliver a streamlined mobile-first experience\n- Lead adoption of Claude and AI tooling across the product team: automated Amplitude reporting with AI agents, ran an LLM-based support-ticket analysis for large-scale pain-point discovery, and drove enablement through AI training for 50+ stakeholders",
+        "- Drove mobile app growth, increasing MAU ~46% (8.9k to ~13k) by instrumenting the funnel in Amplitude and redirecting mobile web traffic into the app; set a 2026 roadmap targeting a further 20% MAU lift\n- Designed and launched in-app ratings prompts with the mobile developers, growing global ratings to 2,100+ across the App Store (4.8) and Google Play (4.88)\n- Developed the product analytics foundation (SQL, Snowflake, Boomi), connecting Amplitude, GA4, and Power BI to standardize KPI tracking and enable faster decision-making\n- Ran an inscription-matching pilot study end to end, defining success metrics, recruiting participants, analyzing results, and partnering with engineering to iterate on UI and backend detection thresholds\n- Wrote PRDs and user stories to extend GIA's web client platform onto mobile, aligning design, engineering, and lab operations on a mobile-first experience designed to reduce client support inquiries and turnaround time\n- Lead Claude and AI tooling adoption: automated Amplitude reporting with AI agents, ran an LLM-based support-ticket analysis for large-scale pain-point discovery, and trained 50+ stakeholders",
     },
     {
       company: "Upcycled Supply Co",
@@ -117,7 +117,7 @@ export const DATA = {
       start: "Oct 2024",
       end: "Present",
       description:
-        "- Built and scaled a multi-channel e-commerce brand across DTC, wholesale, and retail; sold 2,000+ units to date\n- Landed retail accounts, including REI, through direct outreach and a wholesale strategy\n- Ran Meta ad campaigns end to end (audience testing, creative iteration, budget allocation), using performance data to refine targeting and improve conversion\n- Grew Instagram following ~150% in 4 months through structured content testing, hook iteration, and creator collaborations\n- Tested product mix, pricing, and channel strategy against sales data to sharpen SKU focus and lift conversion",
+        "- Built and scaled a multi-channel e-commerce brand across DTC, wholesale, and retail; sold 2,000+ units to date\n- Landed 15+ retail accounts through direct outreach and a wholesale strategy\n- Ran Meta ad campaigns end to end (audience testing, creative iteration, budget allocation), using performance data to refine targeting and improve conversion\n- Grew Instagram following ~150% in 4 months through structured content testing, hook iteration, and creator collaborations\n- Tested product mix, pricing, and channel strategy against sales data to sharpen SKU focus and lift conversion",
     },
     {
       company: "Dune Labs Inc.",
